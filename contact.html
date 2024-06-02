@@ -16,7 +16,9 @@
     <section id="section1">
         <div class="blur-background"></div>
         <div class="content">
-            <img class="web_image" src="https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?size=626&ext=jpg&ga=GA1.1.1535038960.1717171234&semt=ais_user" alt="pic">
+            <img class="web_image"
+                src="https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?size=626&ext=jpg&ga=GA1.1.1535038960.1717171234&semt=ais_user"
+                alt="pic">
             <div class="my_website">
                 <h1>My Website</h1>
             </div>
@@ -28,40 +30,41 @@
     <div class="nav_bar">
         <nav>
             <ul>
-                <li ><a href="index.html" target="_self">Home</a></li>
+                <li><a href="index.html" target="_self">Home</a></li>
                 <li><a href="form2.html" target="_self">Form</a></li>
                 <li><a href="table2.html" target="_self">Table</a></li>
-                <li ><a href="newspaper.html" target="_self">News Portal</a></li>
+                <li><a href="newspaper.html" target="_self">News Portal</a></li>
                 <li><a href="gallery.html" target="_self">Image</a></li>
                 <li id="nav1"><a href="contact.html" target="_self">Contact</a></li>
             </ul>
         </nav>
     </div>
-    <div><table>
-        <form>
-        <tr>
-            <td style="text-align: left;"><h1>Send us message</h1>
-        <label>Name</label><br>
-        <input type="text" placeholder="Enter your name"><br>
-        <label>Email</label><br>
-        <input type="text" placeholder="Enter your email"><br>
-        <label>Message</label><br>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message"></textarea><br>
-        <input type="submit" value="Submit"></td>
-        
-    </form>
-        <td style="text-align: right; width: 800px;">
-                <br><br><br><br><br><h1>Contact Information</h1>
-                <h2><i><b>Maria Islam</b></i></h2>
-                <p><i>Barishal <br>
-                maria.cse8.bu@gmail.com <br>
-                <a href="#">Facebook</a><br>
-                phone: 1234567</i></p>
-            </td>
-        
-    </tr>
-    </table>
+    <div class="contact-container">
+        <div class="contact-form">
+            <form>
+
+                <h1>Send us message</h1>
+                <label id="contact-lebel">Name</label><br>
+                <input id="contact-input" type="text" placeholder="Enter your name"><br><br>
+                <label id="contact-lebel">Email</label><br>
+                <input id="contact-input" type="text" placeholder="Enter your email"><br><br>
+                <label id="contact-lebel">Message</label><br>
+                <textarea id="contact-input" name="" id="" cols="30" rows="10" placeholder="Enter your message"></textarea><br><br>
+                <input id="contact-submit" type="submit" value="Submit">
+
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h1>Contact Information</h1>
+            <h2><i><b>Maria Islam</b></i></h2>
+            <p><i>Barishal <br>
+                    maria.cse8.bu@gmail.com <br>
+                    <a href="#">Facebook</a><br>
+                    phone: 1234567</i></p>
+        </div>
     </div>
 
 </body>
+
 </html>
