@@ -150,12 +150,10 @@ html {
 /* Newsportal section */
 
 .news-section {
-    /* padding: 20px; */
+
     text-align: center;
     background-color: antiquewhite;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-    /* border-radius: 8px;
-    margin: 20px auto; */
+    
     max-width: 100%;
 }
 
@@ -260,39 +258,40 @@ html {
     grid-column: 2;
 }
 
+/* contact section  */
 .contact-container{
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     width: auto;
-    height: 100%;
-    background-color: antiquewhite;
+    height: auto;
+    background-color:#2f00ff;
 
 }
 .contact-form{
     padding: 10px;
-    height: 100%;
-    width: 100%;
-    background-color: #3366ff8f;
+    background-color: #0000005f;
     grid-column: 1;
     border-radius: 5px;
    
 }
 .contact-info{
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     grid-column: 2;
-    background-color: #0271e05f;
+    background-color: #0000005f;
     text-align: right;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
+#contact-h1{
+    color:#ffffff;
+}
 .contact-info h1{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
-    color: #9900ff;
+    color: #ffffff;
     padding: 10px 0;
     text-align: right;
 }
@@ -304,8 +303,8 @@ html {
     border-radius: 5px;
 }
 #contact-lebel{
-    color: #000000;
-    font:bold;
+    color: #ffffff;
+    font-weight:bold;
     font-size: 18px;
 }
 #contact-submit{
@@ -315,5 +314,63 @@ html {
     color: #ffffff;
     border-radius: 5px;
 }
+#contact-p{
+    color:#ffffff;
+}
+/* form section  */
+
+.form-container{
+    background-color: #0077ff;
+    height: 80%;
+    width: 100%;
+   
+    display: grid;
+    place-items: center;
 
 
+}
+.form-signup-container {
+    background-color: #0077ff;
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+
+
+}
+
+.login-container{
+    background-color: #f1f1f15f;
+    padding: 20px 70px;
+box-shadow: 2px 2px 2px #000000;
+border-radius: 5px;
+
+}
+
+#form-h1{
+text-align: center;
+}
+.form-lebel{
+    /* color: #000000; */
+    width: 90%;
+    font-weight: bold;
+
+}
+.form-inpur{
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+
+}
+#form-button{
+    text-align: center;
+    padding: 8px;
+    background-color:#26c756;
+    border-radius: 5px;
+    /* weight:100%; */
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+
+}
